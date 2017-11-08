@@ -8,7 +8,14 @@
     <link rel="stylesheet" href="style/style.css" type="text/css" />
 
 </head>
-<img src="images/dirtbike.jpg" class="button" alt="dirt bike image">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/dirtbike.jpg" class="border" alt="dirt bike image"
+height="50px" width="50px">
+
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/dirtbike.jpg" class="border" alt="dirt bike image"
+     height="50px" width="50px">
+
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/dirtbike.jpg" class="border" alt="dirt bike image"
+     height="50px" width="50px">
 <body>
 <script src="script.js"></script>
 </body>
