@@ -30,7 +30,19 @@
 
 <button id="boobs" type="button" class="btn m">change my color!</button>
 
+<p>Type something</p>
 
+<input type="text" id="inputField">
+
+<p>Drag the p element back and forth between the two rectangles:</p>
+
+<div class="droptarget">
+    <p id="dragtarget" draggable="true">Drag me!</p>
+</div>
+
+<div class="droptarget"></div>
+
+<p id="message"></p>
 
 <script src="script.js"></script>
 </body>
