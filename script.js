@@ -1,9 +1,10 @@
-function bigImg(x) {
-    x.style.height = "200px";
-    x.style.width = "200px";
+document.getElementById("click").onclick = function () { testFunction() }
+function testFunction() {
+    document.getElementById("click").innerHTML = "Nice click!";
 }
 
-function normalImg(x) {
-    x.style.height = "50px";
-    x.style.width = "50px";
+document.getElementById("boobs").onclick = function () { myFunction() }
+function myFunction() {
+    document.getElementById("boobs").style.color ="green";
+    
 }
