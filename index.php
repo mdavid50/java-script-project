@@ -34,7 +34,7 @@
 
 <input type="text" id="inputField">
 
-<p>Drag the p element back and forth between the two rectangles:</p>
+<p>Drag the "drag me" back and forth between the two rectangles</p>
 
 <div class="droptarget">
     <p id="dragtarget" draggable="true">Drag me!</p>
